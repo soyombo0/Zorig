@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B277CC329898FDE0028F201 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B277CC229898FDE0028F201 /* ItemDetail.swift */; };
+		3B583C5829882D7100C21C7A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B583C5729882D7100C21C7A /* Helper.swift */; };
+		3B583C5E29882DE700C21C7A /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B583C5D29882DE700C21C7A /* menu.json */; };
 		3B726DCD29881FB700A83D7B /* ZorigApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B726DCC29881FB700A83D7B /* ZorigApp.swift */; };
 		3B726DCF29881FB700A83D7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B726DCE29881FB700A83D7B /* ContentView.swift */; };
 		3B726DD129881FB800A83D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B726DD029881FB800A83D7B /* Assets.xcassets */; };
 		3B726DD429881FB800A83D7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B726DD329881FB800A83D7B /* Preview Assets.xcassets */; };
+		3BEFDD1D29882ECC002E0D40 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFDD1C29882ECC002E0D40 /* Menu.swift */; };
+		3BEFDD1F298830A0002E0D40 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEFDD1E298830A0002E0D40 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B277CC229898FDE0028F201 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		3B583C5729882D7100C21C7A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		3B583C5D29882DE700C21C7A /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		3B726DC929881FB700A83D7B /* Zorig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zorig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B726DCC29881FB700A83D7B /* ZorigApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZorigApp.swift; sourceTree = "<group>"; };
 		3B726DCE29881FB700A83D7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B726DD029881FB800A83D7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B726DD329881FB800A83D7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BEFDD1C29882ECC002E0D40 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		3BEFDD1E298830A0002E0D40 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,13 @@
 			children = (
 				3B726DCC29881FB700A83D7B /* ZorigApp.swift */,
 				3B726DCE29881FB700A83D7B /* ContentView.swift */,
+				3B277CC229898FDE0028F201 /* ItemDetail.swift */,
+				3BEFDD1E298830A0002E0D40 /* ItemRow.swift */,
+				3B583C5729882D7100C21C7A /* Helper.swift */,
+				3BEFDD1C29882ECC002E0D40 /* Menu.swift */,
 				3B726DD029881FB800A83D7B /* Assets.xcassets */,
 				3B726DD229881FB800A83D7B /* Preview Content */,
+				3B583C5D29882DE700C21C7A /* menu.json */,
 			);
 			path = Zorig;
 			sourceTree = "<group>";
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B583C5E29882DE700C21C7A /* menu.json in Resources */,
 				3B726DD429881FB800A83D7B /* Preview Assets.xcassets in Resources */,
 				3B726DD129881FB800A83D7B /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B726DCF29881FB700A83D7B /* ContentView.swift in Sources */,
+				3B277CC329898FDE0028F201 /* ItemDetail.swift in Sources */,
 				3B726DCD29881FB700A83D7B /* ZorigApp.swift in Sources */,
+				3BEFDD1F298830A0002E0D40 /* ItemRow.swift in Sources */,
+				3BEFDD1D29882ECC002E0D40 /* Menu.swift in Sources */,
+				3B583C5829882D7100C21C7A /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +295,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +325,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
